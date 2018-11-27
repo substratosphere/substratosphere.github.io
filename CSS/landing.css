@@ -1,0 +1,96 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Satisfy');
+</style>
+
+/* font-family: 'Indie Flower', cursive; */
+
+/* 	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+/*   	filter: blur(5px); */
+
+body {
+	font-family: 'Indie Flower', cursive;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-size: 100%;
+	font: inherit;
+}
+
+body.is-touch #landing {
+	background-attachment: scroll;
+}
+
+#content h2{
+	font-weight: 800;
+	font-size: 1.75em;
+	text-transform: uppercase;
+}
+
+#content h3{
+	font-weight: 400;
+	font-size: 1em;
+}
+
+#content .row .col-8{
+	padding-top: 6px;
+}
+
+#content {
+	padding: 3em 0 3em 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#landing h2 {
+	font-family: 'Satisfy', cursive;
+	font-size: 3em;
+}
+
+#landing p {
+	text-transform: uppercase;
+}
+
+#landing {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	color: white;
+	letter-spacing: 2px;
+	padding: 13em 0 13em 0;
+	background-attachment: fixed;
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Assets/landing.png');
+	background-position: center top;
+	background-size: cover;
+	text-align: center;
+}
+
+@media screen and (max-width: 1280px) {
+	#landing {
+		padding: 11em 0 11em 0;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	#landing {
+		padding: 12em 0 12em 0;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	#landing {
+		padding: 6em 6em 6em 6em;
+	}
+	#landing br {
+		display: none;
+	}
+	#landing h2 {
+		font-size: 2.25em;
+	}
+	#landing p {
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#landing {
+		padding: 3em 3em 3em 3em;
+	}
+}
